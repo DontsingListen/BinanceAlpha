@@ -1,0 +1,31 @@
+{
+  "name": "binance-alpha-second-leg",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Binance Alpha second-leg scanner: discover, track, judge, alert (research events, no order execution).",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/unit/*.test.ts\"",
+    "alpha": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts",
+    "alpha:probe": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts probe",
+    "alpha:discover": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts discover",
+    "alpha:collect": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts collect --once",
+    "alpha:scan": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts scan --once",
+    "alpha:watch": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts watch",
+    "alpha:simulate": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts simulate",
+    "alpha:status": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts status",
+    "alpha:alerts": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts alerts",
+    "alpha:events": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts events",
+    "alpha:social": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts social",
+    "alpha:social-plan": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts social-plan",
+    "alpha:mentions": "node --disable-warning=ExperimentalWarning --use-env-proxy src/cli/main.ts mentions"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}

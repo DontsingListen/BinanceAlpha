@@ -1,0 +1,47 @@
+# Dependencies and runtime data
+node_modules/
+data/
+.upstream/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.session
+*.session-*
+*.log
+*.jsonl
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+
+# Local agent context, operational history, and private backups
+.wolf/
+.codex/
+.claude/
+.private/
+AGENTS.md
+CLAUDE.md
+
+# Per-user configuration and credentials
+config/social.json
+config/*.local.*
+.env
+.env.*
+*.env
+*.env.*
+!*.env.example
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+api.json
+login-phone.json
+channels.json
+
+# Raw network captures and generated reports; keep reviewed documentation
+reports/**
+!reports/**/
+!reports/**/*.md

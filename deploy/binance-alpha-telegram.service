@@ -1,0 +1,34 @@
+[Unit]
+Description=BinanceAlpha allow-listed read-only Telegram user-session reader
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=/var/lib/binance-alpha-telegram/private/config.json
+
+[Service]
+Type=simple
+User=binance-alpha-telegram
+Group=binance-alpha
+WorkingDirectory=/opt/binance-alpha-telegram
+ExecStart=/opt/binance-alpha-telegram/venv/bin/python /opt/binance-alpha-telegram/reader.py run
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+Restart=on-failure
+RestartPreventExitStatus=78
+RestartSec=60
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/binance-alpha-telegram/private /var/lib/binance-alpha/telegram-inbox
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+MemoryMax=256M
+LimitNOFILE=1024
+
+[Install]
+WantedBy=multi-user.target

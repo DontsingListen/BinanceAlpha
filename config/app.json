@@ -1,0 +1,25 @@
+{
+  "dbPath": "data/alpha.sqlite",
+  "policyPath": "spec/policy-v0.proposed.json",
+  "alertsJsonlPath": "data/alerts.jsonl",
+  "quoteAsset": "USDT",
+  "selection": {
+    "maxInstruments": 50,
+    "orderBy": "token_volume24h_desc",
+    "pinned": [],
+    "only": [],
+    "socialPinHours": 24,
+    "socialMaxPinned": 20
+  },
+  "collection": {
+    "backfillDays": 7,
+    "closedMarginMs": 3000,
+    "fetchDelayAfterCloseMs": 8000,
+    "overlapBars": 2,
+    "backfillPagesPerCycle": 60,
+    "maxClockOffsetMs": 10000
+  },
+  "http": { "ratePerSec": 1, "maxConcurrent": 2, "timeoutMs": 10000, "maxRetries": 2 },
+  "watch": { "universeRefreshMs": 1800000, "leaseTtlMs": 120000 },
+  "simulation": { "availabilityDelayMs": 8000 }
+}

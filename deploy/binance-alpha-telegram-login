@@ -1,0 +1,25 @@
+#!/bin/sh
+# Interactive Telegram login / channel setup for the isolated reader. Run as root via sudo:
+#   sudo binance-alpha-telegram-login            # first login (API ID/Hash, phone, code, 2FA) + first channel
+#   sudo binance-alpha-telegram-login add-channel
+#   sudo binance-alpha-telegram-login list | diagnose
+# Secrets are typed into the reader process only (no echo); they never pass through this script's arguments or logs.
+set -eu
+cmd="${1:-login}"
+case "$cmd" in login|add-channel|list|diagnose) ;; *) echo "usage: $0 [login|add-channel|list|diagnose]" >&2; exit 2 ;; esac
+if [ "$cmd" = "login" ] || [ "$cmd" = "add-channel" ]; then
+  systemctl stop binance-alpha-telegram.service 2>/dev/null || true
+fi
+set +e
+sudo -u binance-alpha-telegram -H /opt/binance-alpha-telegram/venv/bin/python /opt/binance-alpha-telegram/reader.py "$cmd"
+status=$?
+set -e
+if [ "$cmd" = "login" ] || [ "$cmd" = "add-channel" ]; then
+  if [ "$status" -eq 0 ] && [ -f /var/lib/binance-alpha-telegram/private/config.json ]; then
+    systemctl enable --now binance-alpha-telegram.service
+    echo "binance-alpha-telegram.service enabled and started."
+  else
+    echo "Setup did not complete (exit $status); service left stopped." >&2
+  fi
+fi
+exit "$status"

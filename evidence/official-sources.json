@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-11-05",
+  "sources": [
+    {
+      "id": "B01",
+      "title": "Alpha 通用信息",
+      "url": "https://developers.binance.com/zh-CN/docs/products/alpha/general-info",
+      "supports": [
+        "public unauthenticated market data",
+        "Alpha symbol namespace"
+      ],
+      "verification": "official documentation read; no live API requests"
+    },
+    {
+      "id": "B02",
+      "title": "Alpha REST 市场数据",
+      "url": "https://developers.binance.com/zh-CN/docs/catalog/advanced-trading-alpha-trading/api/rest-api/market-data",
+      "supports": [
+        "token list and alphaId mapping fields",
+        "exchange information",
+        "klines parameters and maximum 1500 rows"
+      ],
+      "verification": "official documentation read; behavior and data coverage require M0 probe"
+    },
+    {
+      "id": "B03",
+      "title": "Alpha WebSocket Market Streams",
+      "url": "https://developers.binance.com/zh-CN/docs/catalog/advanced-trading-alpha-trading/api/ws-streams/~",
+      "supports": [
+        "market stream availability as future option"
+      ],
+      "verification": "documentation read only; REST remains v0 default"
+    },
+    {
+      "id": "B04",
+      "title": "Alpha 修改日志",
+      "url": "https://developers.binance.com/zh-CN/docs/products/alpha/change-log",
+      "supports": [
+        "current official documentation navigation"
+      ],
+      "verification": "used to locate current pages after old documentation paths failed"
+    }
+  ]
+}

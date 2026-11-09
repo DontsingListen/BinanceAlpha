@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "created_on": "2026-11-06",
+  "scope": "Reviewed public documentation and configuration examples; excludes private configuration, runtime data, and the manifest itself. Regenerated 2026-11-09 after privacy sanitization.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7308,
+      "sha256": "bccf94b87c759d14d12f3453e054a4727ae178dc8d61bee5896860b987a4f9ac"
+    },
+    {
+      "path": "docs/01-background-and-scope.md",
+      "bytes": 4630,
+      "sha256": "43eee3cde7dba69914b9f10ff78306bc723c85d9f0ab03e426b529e925cb7708"
+    },
+    {
+      "path": "docs/02-research-and-selection.md",
+      "bytes": 7719,
+      "sha256": "431582429f7d8c836b6964b658212f8c8d20f0c2b10b23fbb81eced7c23527b6"
+    },
+    {
+      "path": "docs/03-architecture-and-data.md",
+      "bytes": 13361,
+      "sha256": "7723cee9ef635305f8aa0dfe9ab0e5329d3051ca11d76e36426fa97b4c7059f4"
+    },
+    {
+      "path": "docs/04-strategy-spec.md",
+      "bytes": 10245,
+      "sha256": "1d93d44acda1ed4f385f9157939258c2c8868f47791bec63a8e936d244ad5ef3"
+    },
+    {
+      "path": "docs/05-execution-plan.md",
+      "bytes": 12995,
+      "sha256": "628ba2c4159eeb4c719d6a7f75c347aad5048cf77d2d66a7efffd564f64b9b21"
+    },
+    {
+      "path": "docs/06-verification-and-handoff.md",
+      "bytes": 8732,
+      "sha256": "36d643b2e6ed5efb06eed76e835f919bccc297dc5ad5e2a418003f1c45fa5ed1"
+    },
+    {
+      "path": "docs/adr/0001-project-foundation.md",
+      "bytes": 2456,
+      "sha256": "af986a4f01a6337557ce6a2ff47e0b3e29bc0732c37acd3d398c2c90bd4d8074"
+    },
+    {
+      "path": "evidence/README.md",
+      "bytes": 2008,
+      "sha256": "eb1e87f0115a265db058b02d95940335a85d1088ee6c830349c5eafc2769b4bf"
+    },
+    {
+      "path": "evidence/aleks-ent-LICENSE.txt",
+      "bytes": 1072,
+      "sha256": "8057b2f8ddbaddce06a339ea93efe9dd879ec23fba118460ebcc5e129e2ff610"
+    },
+    {
+      "path": "evidence/official-sources.json",
+      "bytes": 1517,
+      "sha256": "1d5d2b2a3700a2fae508c1e198963854db9d201b7891eb061239ce227b8fcecf"
+    },
+    {
+      "path": "evidence/package-verification.md",
+      "bytes": 1838,
+      "sha256": "541ee35f93be065f135dc983af44869334a65421047a07aa3f18f1d64d481ece"
+    },
+    {
+      "path": "evidence/source-checks.json",
+      "bytes": 3540,
+      "sha256": "dd470484b86020a2f5a9185159927a26c7269bec024922f7dbd3eb490fa8eee2"
+    },
+    {
+      "path": "evidence/tradermonty-LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "87c93cde8c3a000c19b0c790cd4f7a4e4cb8da5bc6b11e0939bf6df99e245d15"
+    },
+    {
+      "path": "evidence/upstream-snapshot.json",
+      "bytes": 7251,
+      "sha256": "8ee596b490e4fd702bca74b75a5e0a3b6912706b8ca94fe0d657c9251579fc26"
+    },
+    {
+      "path": "spec/policy-v0.proposed.json",
+      "bytes": 1286,
+      "sha256": "41d4c119b824394a5aecbfef0d588462221b702437a070bfc416520e86c5ed99"
+    },
+    {
+      "path": "tools/verify_handoff.py",
+      "bytes": 3632,
+      "sha256": "27f54b00302d63e81721b7160bed9c5857213adb0de8058e53607a8a09386b10"
+    },
+    {
+      "path": "docs/adr/0002-implementation-stack-and-alerts.md",
+      "bytes": 3316,
+      "sha256": "9cc9022dceeb3fe3be024779558f4ff8e6367ba8a4e0333b357440f69de8fb89"
+    },
+    {
+      "path": "reports/m0/alpha-data.md",
+      "bytes": 3919,
+      "sha256": "ced015bb5a73b269cc2c85cdd9cc28048b0eb9026650122e50412678582c9eb3"
+    },
+    {
+      "path": "docs/adr/0003-social-signal-sources.md",
+      "bytes": 7517,
+      "sha256": "0b88495e39fe11e93b628182a30f27381e3cdcee529bba25ad960bff918658ce"
+    },
+    {
+      "path": "deploy/README.md",
+      "bytes": 5277,
+      "sha256": "b0a89724dbd9c9560e34a5b492694b4d58bc5c23a9a65947b61a2d5ddac78a45"
+    },
+    {
+      "path": "config/social.example.json",
+      "bytes": 735,
+      "sha256": "7c692432e342145f13750bde1c9914854d8e133173bfd555b42a2603f8b5a8ff"
+    }
+  ]
+}

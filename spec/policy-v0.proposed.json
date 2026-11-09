@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": "second-leg-v0-proposed",
+  "status": "research_hypothesis_not_validated",
+  "market": "binance-alpha",
+  "quoteAsset": "USDT",
+  "timeframeMs": 300000,
+  "parameters": {
+    "warmupBars": 300,
+    "impulseBars": 12,
+    "baselineBars": 288,
+    "minQuoteVolume24h": 100000,
+    "minPositiveVolumeFraction": 0.8,
+    "impulseReturnMin": 0.2,
+    "impulseVolumeRatioMin": 3.0,
+    "pullbackMin": 0.25,
+    "pullbackMax": 0.65,
+    "baseBars": 6,
+    "baseRangeMax": 0.08,
+    "baseVolumeRatioMax": 0.5,
+    "breakoutBuffer": 0.003,
+    "breakoutVolumeRatioMin": 2.0,
+    "breakoutExtensionMax": 0.08,
+    "baseStopBuffer": 0.02,
+    "confirmationBars": 2,
+    "confirmationWindowBars": 6,
+    "setupTtlHours": 72,
+    "cooldownBars": 24,
+    "freshnessMaxMs": 600000
+  },
+  "semantics": {
+    "priceInvalidation": "close_only_strictly_below_frozen_invalidation_price",
+    "signal": "crossing_above_frozen_pivot_with_volume_and_activity",
+    "confirmation": "new_event_never_backdated",
+    "missingCandles": "pause_no_synthetic_fill",
+    "sameBarStateTransitionsMax": 1,
+    "historicalUniverse": "must_disclose_if_only_current_universe_available",
+    "hourlyContext": "display_only"
+  },
+  "specification": "../docs/04-strategy-spec.md"
+}

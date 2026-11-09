@@ -1,0 +1,359 @@
+{
+ "code": "000000",
+ "message": null,
+ "messageDetail": null,
+ "data": {
+  "timezone": "UTC",
+  "assets": [
+   {
+    "asset": "ALPHA_387"
+   },
+   {
+    "asset": "ALPHA_1134"
+   },
+   {
+    "asset": "USDT"
+   }
+  ],
+  "symbols": [
+   {
+    "symbol": "ALPHA_1134U",
+    "status": "TRADING",
+    "baseAsset": "ALPHA_1134",
+    "quoteAsset": "U",
+    "pricePrecision": 8,
+    "quantityPrecision": 8,
+    "baseAssetPrecision": 8,
+    "quotePrecision": 8,
+    "filters": [
+     {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "1000",
+      "tickSize": "0.00000001"
+     },
+     {
+      "filterType": "LOT_SIZE",
+      "stepSize": "0.01000000",
+      "maxQty": "10621461",
+      "minQty": "0.01000000"
+     },
+     {
+      "filterType": "MAX_NUM_ORDERS",
+      "limit": 200
+     },
+     {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.1"
+     },
+     {
+      "filterType": "MAX_NOTIONAL",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "NOTIONAL",
+      "minNotional": "0.1",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "PERCENT_PRICE",
+      "multiplierDown": "0.20000",
+      "multiplierUp": "5"
+     },
+     {
+      "filterType": "PERCENT_PRICE_BY_SIDE",
+      "bidMultiplierUp": "5",
+      "askMultiplierUp": "5",
+      "bidMultiplierDown": "0.20000",
+      "askMultiplierDown": "0.20000"
+     }
+    ],
+    "orderTypes": [
+     "LIMIT"
+    ]
+   },
+   {
+    "symbol": "ALPHA_124USDT",
+    "status": "TRADING",
+    "baseAsset": "ALPHA_124",
+    "quoteAsset": "USDT",
+    "pricePrecision": 8,
+    "quantityPrecision": 8,
+    "baseAssetPrecision": 8,
+    "quotePrecision": 8,
+    "filters": [
+     {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "1000",
+      "tickSize": "0.00000001"
+     },
+     {
+      "filterType": "LOT_SIZE",
+      "stepSize": "0.01000000",
+      "maxQty": "250000000",
+      "minQty": "0.01000000"
+     },
+     {
+      "filterType": "MAX_NUM_ORDERS",
+      "limit": 200
+     },
+     {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.1"
+     },
+     {
+      "filterType": "MAX_NOTIONAL",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "NOTIONAL",
+      "minNotional": "0.1",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "PERCENT_PRICE",
+      "multiplierDown": "0.20000",
+      "multiplierUp": "5"
+     },
+     {
+      "filterType": "PERCENT_PRICE_BY_SIDE",
+      "bidMultiplierUp": "5",
+      "askMultiplierUp": "5",
+      "bidMultiplierDown": "0.20000",
+      "askMultiplierDown": "0.20000"
+     }
+    ],
+    "orderTypes": [
+     "LIMIT"
+    ]
+   },
+   {
+    "symbol": "ALPHA_1005USDT",
+    "status": "TRADING",
+    "baseAsset": "ALPHA_1005",
+    "quoteAsset": "USDT",
+    "pricePrecision": 8,
+    "quantityPrecision": 8,
+    "baseAssetPrecision": 8,
+    "quotePrecision": 8,
+    "filters": [
+     {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "1000",
+      "tickSize": "0.00000001"
+     },
+     {
+      "filterType": "LOT_SIZE",
+      "stepSize": "0.01000000",
+      "maxQty": "100000000",
+      "minQty": "0.01000000"
+     },
+     {
+      "filterType": "MAX_NUM_ORDERS",
+      "limit": 200
+     },
+     {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.1"
+     },
+     {
+      "filterType": "MAX_NOTIONAL",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "NOTIONAL",
+      "minNotional": "0.1",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "PERCENT_PRICE",
+      "multiplierDown": "0.20000",
+      "multiplierUp": "5"
+     },
+     {
+      "filterType": "PERCENT_PRICE_BY_SIDE",
+      "bidMultiplierUp": "5",
+      "askMultiplierUp": "5",
+      "bidMultiplierDown": "0.20000",
+      "askMultiplierDown": "0.20000"
+     }
+    ],
+    "orderTypes": [
+     "LIMIT"
+    ]
+   },
+   {
+    "symbol": "ALPHA_1005USDC",
+    "status": "TRADING",
+    "baseAsset": "ALPHA_1005",
+    "quoteAsset": "USDC",
+    "pricePrecision": 8,
+    "quantityPrecision": 8,
+    "baseAssetPrecision": 8,
+    "quotePrecision": 8,
+    "filters": [
+     {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "1000",
+      "tickSize": "0.00000001"
+     },
+     {
+      "filterType": "LOT_SIZE",
+      "stepSize": "0.01000000",
+      "maxQty": "100000000",
+      "minQty": "0.01000000"
+     },
+     {
+      "filterType": "MAX_NUM_ORDERS",
+      "limit": 200
+     },
+     {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.1"
+     },
+     {
+      "filterType": "MAX_NOTIONAL",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "NOTIONAL",
+      "minNotional": "0.1",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "PERCENT_PRICE",
+      "multiplierDown": "0.20000",
+      "multiplierUp": "5"
+     },
+     {
+      "filterType": "PERCENT_PRICE_BY_SIDE",
+      "bidMultiplierUp": "5",
+      "askMultiplierUp": "5",
+      "bidMultiplierDown": "0.20000",
+      "askMultiplierDown": "0.20000"
+     }
+    ],
+    "orderTypes": [
+     "LIMIT"
+    ]
+   },
+   {
+    "symbol": "ALPHA_1005U",
+    "status": "TRADING",
+    "baseAsset": "ALPHA_1005",
+    "quoteAsset": "U",
+    "pricePrecision": 8,
+    "quantityPrecision": 8,
+    "baseAssetPrecision": 8,
+    "quotePrecision": 8,
+    "filters": [
+     {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "1000",
+      "tickSize": "0.00000001"
+     },
+     {
+      "filterType": "LOT_SIZE",
+      "stepSize": "0.01000000",
+      "maxQty": "100000000",
+      "minQty": "0.01000000"
+     },
+     {
+      "filterType": "MAX_NUM_ORDERS",
+      "limit": 200
+     },
+     {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.1"
+     },
+     {
+      "filterType": "MAX_NOTIONAL",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "NOTIONAL",
+      "minNotional": "0.1",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "PERCENT_PRICE",
+      "multiplierDown": "0.20000",
+      "multiplierUp": "5"
+     },
+     {
+      "filterType": "PERCENT_PRICE_BY_SIDE",
+      "bidMultiplierUp": "5",
+      "askMultiplierUp": "5",
+      "bidMultiplierDown": "0.20000",
+      "askMultiplierDown": "0.20000"
+     }
+    ],
+    "orderTypes": [
+     "LIMIT"
+    ]
+   },
+   {
+    "symbol": "ALPHA_142USDT",
+    "status": "DELISTED",
+    "baseAsset": "ALPHA_142",
+    "quoteAsset": "USDT",
+    "pricePrecision": 8,
+    "quantityPrecision": 8,
+    "baseAssetPrecision": 8,
+    "quotePrecision": 8,
+    "filters": [
+     {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "1000",
+      "tickSize": "0.00000001"
+     },
+     {
+      "filterType": "LOT_SIZE",
+      "stepSize": "0.01000000",
+      "maxQty": "303674461",
+      "minQty": "0.01000000"
+     },
+     {
+      "filterType": "MAX_NUM_ORDERS",
+      "limit": 200
+     },
+     {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.1"
+     },
+     {
+      "filterType": "MAX_NOTIONAL",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "NOTIONAL",
+      "minNotional": "0.1",
+      "maxNotional": "1000000"
+     },
+     {
+      "filterType": "PERCENT_PRICE",
+      "multiplierDown": "0.20000",
+      "multiplierUp": "5"
+     },
+     {
+      "filterType": "PERCENT_PRICE_BY_SIDE",
+      "bidMultiplierUp": "5",
+      "askMultiplierUp": "5",
+      "bidMultiplierDown": "0.20000",
+      "askMultiplierDown": "0.20000"
+     }
+    ],
+    "orderTypes": [
+     "LIMIT"
+    ]
+   }
+  ],
+  "otoEnabled": true
+ },
+ "success": true
+}

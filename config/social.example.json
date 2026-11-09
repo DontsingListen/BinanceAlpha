@@ -1,0 +1,38 @@
+{
+  "alertsJsonlPath": "data/alerts.social.jsonl",
+  "x": {
+    "enabled": false,
+    "handles": [],
+    "schedule": {
+      "times": [
+        "10:00",
+        "22:00"
+      ],
+      "timeZone": "Etc/UTC"
+    },
+    "retryDelayMs": 1800000,
+    "maxAttemptsPerSlot": 3,
+    "batchSize": 4,
+    "batchDelayMs": 600000,
+    "model": "grok-4.3",
+    "maxTurns": 26,
+    "maxOutputTokens": 16000,
+    "dailyBudgetUsd": 5,
+    "perRequestBudgetUsd": 2,
+    "timeoutMs": 300000,
+    "lookbackMs": 46800000
+  },
+  "telegram": {
+    "enabled": false,
+    "spoolDirectory": "/var/lib/binance-alpha/telegram-inbox",
+    "pollIntervalMs": 5000
+  },
+  "mentions": {
+    "stoplist": [
+      "BTW"
+    ]
+  },
+  "lease": {
+    "ttlMs": 120000
+  }
+}

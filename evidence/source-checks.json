@@ -1,0 +1,68 @@
+{
+  "checked_on": "2026-11-05",
+  "files": [
+    {
+      "repository": "aleks-ent/pump-dump-crypto-screener",
+      "commit": "ec14f855b2fdd65b2c9b039d1b7661d4da6ef26b",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/aleks-ent/pump-dump-crypto-screener/ec14f855b2fdd65b2c9b039d1b7661d4da6ef26b/README.md",
+      "sha256": "4c9e6c71b31784358cc56217cc7b213690f59ef8d712bfbf1a5d5804bee0371c",
+      "line_count": 293,
+      "review_method": "read selected source; no execution"
+    },
+    {
+      "repository": "aleks-ent/pump-dump-crypto-screener",
+      "commit": "ec14f855b2fdd65b2c9b039d1b7661d4da6ef26b",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/aleks-ent/pump-dump-crypto-screener/ec14f855b2fdd65b2c9b039d1b7661d4da6ef26b/LICENSE",
+      "sha256": "8057b2f8ddbaddce06a339ea93efe9dd879ec23fba118460ebcc5e129e2ff610",
+      "line_count": 21,
+      "review_method": "read selected source; no execution"
+    },
+    {
+      "repository": "aleks-ent/pump-dump-crypto-screener",
+      "commit": "ec14f855b2fdd65b2c9b039d1b7661d4da6ef26b",
+      "path": "package.json",
+      "url": "https://raw.githubusercontent.com/aleks-ent/pump-dump-crypto-screener/ec14f855b2fdd65b2c9b039d1b7661d4da6ef26b/package.json",
+      "sha256": "45e7c99052e2a8be57bd1b0ff0bd2366d3c27ca7d23bf14898170870636e2ca9",
+      "line_count": 31,
+      "review_method": "read selected source; no execution"
+    },
+    {
+      "repository": "aleks-ent/pump-dump-crypto-screener",
+      "commit": "ec14f855b2fdd65b2c9b039d1b7661d4da6ef26b",
+      "path": "packages/pump-detector/src/features/evaluate.ts",
+      "url": "https://raw.githubusercontent.com/aleks-ent/pump-dump-crypto-screener/ec14f855b2fdd65b2c9b039d1b7661d4da6ef26b/packages/pump-detector/src/features/evaluate.ts",
+      "sha256": "fe5ef0d17f85db0e8cfae432b1ed6231b037b12cdaa9a14f6428936e05e48142",
+      "line_count": 305,
+      "review_method": "read selected source; no execution"
+    },
+    {
+      "repository": "aleks-ent/pump-dump-crypto-screener",
+      "commit": "ec14f855b2fdd65b2c9b039d1b7661d4da6ef26b",
+      "path": "packages/pump-detector/src/scan-coin.ts",
+      "url": "https://raw.githubusercontent.com/aleks-ent/pump-dump-crypto-screener/ec14f855b2fdd65b2c9b039d1b7661d4da6ef26b/packages/pump-detector/src/scan-coin.ts",
+      "sha256": "42339aa8e0f95837edd350000418bf6bb8cb6ffb49beb6e1c29019c0c5e4db79",
+      "line_count": 251,
+      "review_method": "read selected source; no execution"
+    },
+    {
+      "repository": "tradermonty/claude-trading-skills",
+      "commit": "d8e71ce2f0b069eb5b6fca352857c168c35e6c46",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/d8e71ce2f0b069eb5b6fca352857c168c35e6c46/LICENSE",
+      "sha256": "87c93cde8c3a000c19b0c790cd4f7a4e4cb8da5bc6b11e0939bf6df99e245d15",
+      "line_count": 21,
+      "review_method": "read selected source; no execution"
+    },
+    {
+      "repository": "tradermonty/claude-trading-skills",
+      "commit": "d8e71ce2f0b069eb5b6fca352857c168c35e6c46",
+      "path": "skills/vcp-screener/scripts/calculators/vcp_pattern_calculator.py",
+      "url": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/d8e71ce2f0b069eb5b6fca352857c168c35e6c46/skills/vcp-screener/scripts/calculators/vcp_pattern_calculator.py",
+      "sha256": "2d5f3d5e019c51723cfc27a2fb9db89d1ff03deaefa3cf50c4e9b512511bc002",
+      "line_count": 654,
+      "review_method": "read selected source; no execution"
+    }
+  ]
+}

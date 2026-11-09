@@ -1,0 +1,40 @@
+[Unit]
+Description=BinanceAlpha social signal monitor (X via xAI x_search, Telegram spool ingest; local alerts only)
+After=network-online.target binance-alpha.service
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=3
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=30
+TimeoutStopSec=60
+UMask=0027
+NoNewPrivileges=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectSystem=strict
+ProtectHome=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+CapabilityBoundingSet=
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+LimitNOFILE=4096
+User=binance-alpha
+Group=binance-alpha
+WorkingDirectory=/opt/binance-alpha
+Environment=HOME=/var/lib/binance-alpha
+Environment=PATH=/opt/node-v26.13.0-linux-x64/bin:/usr/local/bin:/usr/bin:/bin
+# XAI_API_KEY lives only here (root:binance-alpha 0640); never in the repository or logs.
+EnvironmentFile=-/etc/binance-alpha/social.env
+ExecStart=/opt/node-v26.13.0-linux-x64/bin/node --disable-warning=ExperimentalWarning /opt/binance-alpha/src/cli/main.ts social
+ReadWritePaths=/opt/binance-alpha/data /var/lib/binance-alpha/telegram-inbox
+MemoryHigh=400M
+MemoryMax=600M
+
+[Install]
+WantedBy=multi-user.target
